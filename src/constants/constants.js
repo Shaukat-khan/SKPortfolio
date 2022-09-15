@@ -1,12 +1,21 @@
 export const projects = [
   {
+    title: 'Netflix Clone MERN Stack Project',
+    description: "Developed a full automated MERN Netflix clone using React, Redux Toolkit, Nodejs, Firebase, Express, MongoDB, and React Router. This MERN app is capable of letting user to watch their favorite movies and tv shows with high-quality audio and video streaming from TMDB data",
+      image: '/images/4.png',
+      tags: ['React', 'Redux Toolkit', ' Node.js ', ' MongoDB', 'Express'],
+      visit: 'https://github.com/Shaukat-khan/netflix-clone',
+      source: 'https://github.com/Shaukat-khan/netflix-clone/tree/main/netflix-api',
+    id: 0,
+  },
+  {
     title: 'Full Stack E-commerce Web',
     description: "Designed an E-commerce website that allows you to order items that you have added to your cart, and purchase them using Stripe. ",
       image: '/images/1.png',
       tags: ['Next.js', 'React Hooks', 'Hooks', 'Refs', 'HTML', 'CSS'],
       visit: 'https://github.com/Shaukat-khan/neo_shop.git',
       source: 'https://neo-shop-fxs1ud2h9-shaukat-khan.vercel.app',
-    id: 0,
+    id: 1,
   },
   {
     title: 'Software Engineer Fellow at The Headstarter',
@@ -15,7 +24,7 @@ export const projects = [
     tags: ['React ', 'JS', 'REST APIs', 'AWS', 'Mobile Dev', 'Web Serv', 'SQL'],
     visit: 'https://www.theheadstarter.com',
     source: 'https://www.theheadstarter.com',
-    id: 1,
+    id: 2,
   },
   {
     title: 'WhatsApp Clone',
@@ -24,7 +33,7 @@ export const projects = [
       tags: ['Java Core', 'Swing', 'Socket Programming'],
       visit: 'https://github.com/Shaukat-khan/Java-Chatting-Application-CISC-3141-Lab-4.git',
       source: 'https://github.com/Shaukat-khan/Java-Chatting-Application-CISC-3141-Lab-4.git',
-    id: 2,
+    id: 3,
   },
 ];
 
